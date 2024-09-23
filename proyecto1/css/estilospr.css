@@ -1,0 +1,35 @@
+.caja{
+
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid rgb(21, 130, 9);
+    
+
+}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+.item{
+    width: 70%;
+    height: 300px;
+    background-color: lightblue;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px ;
+    
+}
+.grid-item{
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
+@media (max-width: 600px){
+    .contenedor{
+        flex-direction: column;
+    }
+}

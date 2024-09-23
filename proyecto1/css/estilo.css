@@ -1,0 +1,17 @@
+
+h1 {
+color:goldenrod;
+background-color: rgba(8, 8, 154, 0.904);
+font-family:times New Roman;
+}
+h2{
+    color:darkgoldenrod;
+    font-family:times New Roman;
+}
+h3{
+    color:blue;
+    font-family:Arial;
+}
+p{
+    font-family:times New Roman;
+}
